@@ -1,1 +1,197 @@
-
+body, h1, h2, p{
+            padding:0;
+            margin:0;
+        }
+        .wrapper{
+            width:1100px;
+            min-height:200px;
+            margin-left:auto;
+            margin-right:auto;
+            margin-top:30px;
+            margin-bottom:30px;
+            display:flex;
+        }
+        .header{
+            min-width:1100px;
+        }
+        .line{
+            background-color: #DDDDDD;
+            height:20px;
+            width:100%;
+        }
+        .top{
+            height:50px;
+            width:100%;
+            background-color:#EEEEEE;
+            line-height:50px;
+            color:#C60304;
+        }
+        .top-center{
+            width:1100px;
+            height:50px;
+            margin:auto;
+        }
+        .menu{
+            height:50px;
+            min-width:1100px;;
+            background-color:#C60304;
+            margin:auto;
+        }
+        .menu-center{
+            width:1100px;
+            height:50px;
+            margin:auto;
+        }
+        .menu li{
+            line-height:50px;
+            display:inline-block;
+        }
+        .menu a{
+            font-size: 19px;
+            display:block;
+            padding-left: 20px;
+            padding-right: 20px;
+            color:white;
+        }
+        .menu a:hover, .menu a.active{
+            background-color:#7D0202;
+        }
+        .slogan{
+            float: right;
+        }
+        .logo{
+            font-size:33px;
+            float: left;
+        }
+        .submenu{
+            color:#666666;
+            background-color:#E6E6E6;
+            width:100%;
+            min-height:30px;
+            display:flex;
+            margin:auto;
+        }
+        .sb-center{
+            min-width:1100px;
+            min-height:30px;
+            background-color:#E6E6E6;
+            display:flex;
+            color:#666666;
+            margin:auto;
+        }
+        .submenu li{
+            line-height:30px;
+            list-style: none;
+            padding-left:20px;
+            padding-right:20px;
+            display:block;
+        }
+        .sb-center a{
+            list-style: none;
+            color:#666666;
+        }
+        .sb-center a:hover{
+            text-decoration: none;
+        }
+        .sb-right{
+            height:30px;
+            min-width:10px;
+            float:right;
+            line-height:30px;
+            margin-left:270px;
+        }
+        .sb-right p{
+            color:#666666;
+        }
+        .sb-right b{
+            font-weight:bold;
+            color:#666666;
+        }
+        .sb-right a{
+            color:#666666;
+        }
+        .sb-right a:hover{
+            text-decoration: none;
+        }
+        .content{
+            width:560px;
+            margin-right:20px;
+            min-height:200px;
+        }
+        .content h1{
+            font-size:24px;
+        }
+        .content h2{
+            font-size:19px;
+            margin-top:20px;
+        }
+        .content p{
+            margin:10px 0;
+            text-align:justify;
+        }
+        .content img{
+            width:560px;
+        }
+        .middle, .right{
+            width:250px;
+        }
+        .middle{
+            margin-right:20px;
+        }
+        .middle h2,.right h2{
+            font-size: 17px;
+            margin-bottom:10px;
+        }
+        .middle p,.right p{
+            font-size:13px;
+            margin-bottom:10px;
+            text-align:justify;
+        }
+        .right img{
+            width:100%;
+            margin-bottom:20px;
+        }
+        .footer{
+            min-width:1100px;
+            padding:30px 0;
+            color:#666666;
+            background-color: #E6E6E6;
+            display:flex;
+        }
+        .footer-box{
+            width:1100px;
+            margin:auto;
+            display:flex;
+        }
+        .footer-menu{
+            width:200px;
+            min-height:150px;
+        }
+        .footer-menu li{
+            list-style:none;
+            margin-bottom:10px;
+        }
+        .footer-menu a{
+            color:#666666;
+            text-decoration:none;
+            text-align: justify;
+            font-size:15px;
+            list-style: none;
+        }
+        .footer-menu a:hover{
+            text-decoration: underline;
+        }
+        .footer-info{
+            width:870px;
+            height:126px;
+        }
+        .footer-info h2{
+            margin:auto;
+            font-size:19.5px;
+            text-align:center;
+        }
+        .footer-info p{
+            font-size:13px;
+            text-align:center;
+            margin-bottom:3px;
+        }
